@@ -2,23 +2,24 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: 
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: IMG_0531 2.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>this is me</p>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello there! I'm a PhD student in biostatistics at Harvard, advised by [Brent Coull](https://www.hsph.harvard.edu/brent-coull/){:target="\_blank"} and [Finale Doshi-Velez](https://finale.seas.harvard.edu){:target="\_blank"}. I'm part of the [Data to Actionable Knowledge Lab (DtAK)](https://dtak.github.io){:target="\_blank"}. Previously I did a master's in statistics at Duke, where I worked with [Cynthia Rudin](https://users.cs.duke.edu/~cynthia/){:target="\_blank"}.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I'm interested in probabilistic machine learning, particularly Bayesian neural networks (BNNs) and Gaussian processes (GPs). I think about questions like:
+- How do we design priors that encode functional properties (e.g., smoothness or sparsity)?
+- What are the theoretical connections between variational BNNs and GPs? 
+- And, maybe one day, how can we guide learning towards a causal understanding to help with generalization? 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+**Contact:** beaucoker [AT] g [DOT] harvard [DOT] edu

@@ -1,18 +1,23 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Pan":
+  - firstname: ["Weiwei", "W."]
+    url: https://onefishy.github.io
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Pradier":
+  - firstname: ["Melanie", "M."]
+    url: https://melaniefp.github.io
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Doshi-Velez":
+  - firstname: ["Finale", "F."]
+    url: https://finale.seas.harvard.edu
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Rudin":
+  - firstname: ["Cynthia", "R."]
+    url: https://users.cs.duke.edu/~cynthia/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"King":
+  - firstname: ["Gary", "G."]
+    url: https://gking.harvard.edu
+
+"Wang":
+  - firstname: ["Caroline", "C."]
+    url: https://carolinewang01.github.io

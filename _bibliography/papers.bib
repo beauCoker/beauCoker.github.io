@@ -1,72 +1,76 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
+@inproceedings{coker_udl2021,
+  abstract = {hello},
+  abbr={UDL},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
+  title = {Wide Mean-Field Variational Bayesian Neural Networks Ignore the Data},
+  booktitle = {ICML Workshop on Uncertainty and Robustness in Deep Learning},
+  year = {2021},
+  author = {Beau Coker and Weiwei Pan and Finale Doshi-Velez},
+  abstract = {Variational inference enables approximate posterior inference of the highly over-parameterized neural networks that are popular in modern machine learning. Unfortunately, such posteriors are known to exhibit various pathological behaviors. We prove that as the number of hidden units in a single-layer Bayesian neural network tends to infinity, the function-space posterior mean under mean-field variational inference actually converges to zero, completely ignoring the data (assuming it has been centered around zero). This is in contrast to the true posterior, which converges to a Gaussian process. Our work provides insight into the over-regularization of the KL divergence in variational inference.}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
+@inproceedings{coker_uai2020,
+  abbr={UAI},
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+  title = {PoRB-Nets: Poisson Process Radial Basis Function Networks},
+  booktitle = {Proceedings of the 36th Conference on Uncertainty in Artificial Intelligence (UAI)},
+  volume = {124},
+  year = {2020},
+  pages = {1338--1347},
+  author = {Coker, Beau and Pradier, Melanie and Doshi-Velez, Finale},
+  pdf = {http://proceedings.mlr.press/v124/coker20a/coker20a.pdf},
+  abstract = {Bayesian neural networks (BNNs) are flexible function priors well-suited to situations in which data are scarce and uncertainty must be quantified. Yet, common weight priors are able to encode little functional knowledge and can behave in undesirable ways. We present a novel prior over radial basis function networks (RBFNs) that allows for independent specification of functional amplitude variance and lengthscale (i.e., smoothness), where the inverse lengthscale corresponds to the concentration of radial basis functions. When the lengthscale is uniform over the input space, we prove consistency and approximate variance stationarity. This is in contrast to common BNN priors, which are highly nonstationary. When the input dependence of the lengthscale is unknown, we show how it can be inferred. We compare this model’s behavior to standard BNNs and Gaussian processes using synthetic and real examples.}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
+@article{rudin_hdsr2020,
+abbr={HDSR},
+bibtex_show={true},
+journal = {Harvard Data Science Review},
+doi = {10.1162/99608f92.6ed64b30},
+number = {1},
+note = {https://hdsr.mitpress.mit.edu/pub/7z10o269},
+title = {The Age of Secrecy and Unfairness in Recidivism Prediction},
+url = {https://hdsr.mitpress.mit.edu/pub/7z10o269},
+volume = {2},
+author = {Rudin, Cynthia and Wang, Caroline and Coker, Beau},
+date = {2020-03-31},
+year = {2020},
+month = {3},
+day = {31},
+html = {https://hdsr.mitpress.mit.edu/pub/7z10o269},
+abstract = {In our current society, secret algorithms make important decisions about individuals. There has been substantial discussion about whether these algorithms are unfair to groups of individuals. While noble, this pursuit is complex and ultimately stagnating because there is no clear definition of fairness and competing definitions are largely incompatible. We argue that the focus on the question of fairness is misplaced, as these algorithms fail to meet a more important and yet readily obtainable goal: transparency. As a result, creators of secret algorithms can provide incomplete or misleading descriptions about how their models work, and various other kinds of errors can easily go unnoticed. By trying to partially reconstruct the COMPAS model—a recidivism risk-scoring model used throughout the criminal justice system—we show that it does not seem to depend linearly on the defendant’s age, despite statements to the contrary by the model’s creator. This observation has not been made before despite many recently published papers on COMPAS. Furthermore, by subtracting from COMPAS its (hypothesized) nonlinear age component, we show that COMPAS does not necessarily depend on race other than through age and criminal history. This contradicts ProPublica’s analysis, which made assumptions about age that disagree with what we observe in the data. In other words, faulty assumptions about a proprietary model led to faulty conclusions that went unchecked until now. Were the model transparent in the first place, this likely would not have occurred. We demonstrate other issues with definitions of fairness and lack of transparency in the context of COMPAS, including that a simple model based entirely on a defendant’s age is as ‘unfair’ as COMPAS by ProPublica’s chosen definition. We find that there are many defendants with low risk scores but long criminal histories, suggesting that data inconsistencies occur frequently in criminal justice databases. We argue that transparency satisfies a different notion of procedural fairness by providing both the defendants and the public with the opportunity to scrutinize the methodology and calculations behind risk scores for recidivism.}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@article{coker_ms2018,
+abbr={Manag. Sci.},
+bibtex_show={true},
+author = {Coker, Beau and Rudin, Cynthia and King, Gary},
+year = {2018},
+month = {04},
+pages = {},
+title = {A Theory of Statistical Inference for Ensuring the Robustness of Scientific Results},
+journal = {Management Science},
+doi = {10.1287/mnsc.2020.3818},
+html = {https://pubsonline.informs.org/doi/10.1287/mnsc.2020.3818},
+pdf = {https://arxiv.org/pdf/1804.08646.pdf},
+abstract = {Inference is the process of using facts we know to learn about facts we do not know. A theory of inference gives assumptions necessary to get from the former to the latter, along with a definition for and summary of the resulting uncertainty. Any one theory of inference is neither right nor wrong, but merely an axiom that may or may not be useful. Each of the many diverse theories of inference can be valuable for certain applications. However, no existing theory of inference addresses the tendency to choose, from the range of plausible data analysis specifications consistent with prior evidence, those that inadvertently favor one’s own hypotheses. Since the biases from these choices are a growing concern across scientific fields, and in a sense the reason the scientific community was invented in the first place, we introduce a new theory of inference designed to address this critical problem. We introduce hacking intervals, which are the range of a summary statistic one may obtain given a class of possible endogenous manipulations of the data. Hacking intervals require no appeal to hypothetical data sets drawn from imaginary superpopulations. A scientific result with a small hacking interval is more robust to researcher manipulation than one with a larger interval, and is often easier to interpret than a classical confidence interval. Some versions of hacking intervals turn out to be equivalent to classical confidence intervals, which means they may also provide a more intuitive and potentially more useful interpretation of classical confidence intervals.}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@inproceedings{kompa_psb2020,
+abbr={PSB},
+bibtex_show={true},
+author = { Benjamin   Kompa  and  Beau   Coker },
+title = {Learning a Latent Space of Highly Multidimensional Cancer Data},
+booktitle = {Biocomputing},
+chapter = {},
+pages = {379-390},
+year = {2020},
+doi = {10.1142/9789811215636_0034},
+pdf = {https://www.worldscientific.com/doi/abs/10.1142/9789811215636_0034},
+eprint = {https://www.worldscientific.com/doi/pdf/10.1142/9789811215636_0034},
+abstract = {We introduce a Unified Disentanglement Network (UFDN) trained on The Cancer Genome Atlas (TCGA), which we refer to as UFDN-TCGA. We demonstrate that UFDN-TCGA learns a biologically relevant, low-dimensional latent space of high-dimensional gene expression data by applying our network to two classification tasks of cancer status and cancer type. UFDN-TCGA performs comparably to random forest methods. The UFDN allows for continuous, partial interpolation between distinct cancer types. Furthermore, we perform an analysis of differentially expressed genes between skin cutaneous melanoma (SKCM) samples and the same samples interpolated into glioblastoma (GBM). We demonstrate that our interpolations consist of relevant metagenes that recapitulate known glioblastoma mechanisms.}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
