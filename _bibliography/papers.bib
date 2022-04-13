@@ -7,6 +7,7 @@
   title = {Wide Mean-Field Variational Bayesian Neural Networks Ignore the Data},
   booktitle = {Proceedings of the 25th International Conference on Artificial Intelligence and Statistics (AISTATS)},
   year = {2022},
+  pdf = {https://arxiv.org/pdf/2202.11670.pdf},
   author = {Bayesian neural networks (BNNs) combine the expressive power of deep learning with the advantages of Bayesian formalism. In recent years, the analysis of wide, deep BNNs has provided theoretical insight into their priors and posteriors. However, we have no analogous insight into their posteriors under approximate inference. In this work, we show that mean-field variational inference entirely fails to model the data when the network width is large and the activation function is odd. Specifically, for fully-connected BNNs with odd activation functions and a homoscedastic Gaussian likelihood, we show that the optimal mean-field variational posterior predictive (i.e., function space) distribution converges to the prior predictive distribution as the width tends to infinity. We generalize aspects of this result to other likelihoods. Our theoretical results are suggestive of underfitting behavior previously observered in BNNs. While our convergence bounds are non-asymptotic and constants in our analysis can be computed, they are currently too loose to be applicable in standard training regimes. Finally, we show that the optimal approximate posterior need not tend to the prior if the activation function is not odd, showing that our statements cannot be generalized arbitrarily.}
 }
 
@@ -17,6 +18,7 @@
   title = {Wide Mean-Field Variational Bayesian Neural Networks Ignore the Data},
   booktitle = {ICML Workshop on Uncertainty and Robustness in Deep Learning},
   year = {2021},
+  pdf = {https://arxiv.org/pdf/2106.07052.pdf},
   author = {Beau Coker and Weiwei Pan and Finale Doshi-Velez},
   abstract = {Variational inference enables approximate posterior inference of the highly over-parameterized neural networks that are popular in modern machine learning. Unfortunately, such posteriors are known to exhibit various pathological behaviors. We prove that as the number of hidden units in a single-layer Bayesian neural network tends to infinity, the function-space posterior mean under mean-field variational inference actually converges to zero, completely ignoring the data (assuming it has been centered around zero). This is in contrast to the true posterior, which converges to a Gaussian process. Our work provides insight into the over-regularization of the KL divergence in variational inference.}
 }
