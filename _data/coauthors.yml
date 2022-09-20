@@ -21,3 +21,27 @@
 "Wang":
   - firstname: ["Caroline", "C."]
     url: https://carolinewang01.github.io
+
+"Coull":
+  - firstname: ["Brent A.", "B."]
+    url: https://www.hsph.harvard.edu/brent-coull/
+
+"Mukherjee":
+  - firstname: ["Rajarshi", "R."]
+    url: https://scholar.harvard.edu/rajarshi/home
+
+"Liu":
+  - firstname: ["Jeremiah Zhe"]
+    url: http://jereliu.info
+
+"Burt":
+  - firstname: ["David R."]
+    url: https://davidrburt.github.io
+
+"Bruinsma":
+  - firstname: ["Wessel P."]
+    url: https://wesselb.github.io/about
+
+"Deng":
+  - firstname: ["Wenying"]
+    url: https://www.linkedin.com/in/wenying-deng-0a9911179/

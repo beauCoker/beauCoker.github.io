@@ -1,0 +1,125 @@
+- title: Education
+  type: time_table
+  contents:
+    - title: PhD in Biostatistics (expected)
+      institution: Harvard University, Cambridge, MA
+      year: 2018 - 2023
+      description:
+        - "Advisors: Finale Doshi-Velez, Brent Coull"
+    - title: MS in Statistical Science
+      institution: Duke University, Durham, NC
+      year: 2016 - 2018
+      description:
+        - "Thesis: A Theory of Statistical Inference for Ensuring the Robustness of Scientific Results (Advised by Cynthia
+Rudin)"
+    - title: BS in Engineering Science
+      institution: Tufts University, Medford, MA
+      year: 2009 - 2013
+      description:
+        - "Thesis: Do Physical Analogs of Stock Market Crashes Make Sense? (Advised by Tim Atherton)"
+        - Completed second major in Mathematics and minor in Economics
+
+- title: Research Experience
+  type: time_table
+  contents:
+    - title: <a href="https://dtak.github.io">Data to Actionable Knowledge (DTAK)</a>
+      institution: Graduate Research Assistant | Harvard School of Engineering and Applied Sciences
+      year: 2019 - 
+      description:
+        - "Advisor: Finale Doshi-Velez"
+        - "Topics: Bayesian neural networks, GPs, variational inference"
+
+    - title: Environmental Health
+      institution: Graduate Research Assistant | Harvard T.H. Chan School of Public Health
+      year: 2019 - 
+      description:
+        - "Advisor: Finale Doshi-Velez"
+        - "Topics: variable selection, approximate GPs"
+
+    - title: <a href="https://users.cs.duke.edu/~cynthia/lab.html">Prediction Analysis Lab</a>
+      institution: Graduate Research Assistant | Duke University Department of Computer Science
+      year: 2017 - 2018
+      description:
+        - "Advisor: Cynthia Rudin"
+        - "Topics: robust statistics, recidivism prediction, nonlinear dynamical systems"
+
+    - title: <a href="https://sites.tufts.edu/softmattertheory/">Soft Matter Theory</a>
+      institution: Undergraduate Research Assistant | Tufts University Department of Physics
+      year: 2012 - 2013
+      description:
+        - "Advisor: Tim Atherton"
+        - "Topics: Ising systems, critical phenomena in financial markets"
+
+
+- title: Publications
+  type: list
+  contents:
+    - <em>Towards a Unified Framework for Uncertainty-aware Nonlinear Variable Importance Estimation with Theoretical Guarantees.</em> Wenying Deng, <b>Beau Coker</b>, Rajarshi Mukherjee, Jeremiah Zhe Liu, and Brent A. Coull. In Advances in Neural Information Processing Systems (NeurIPS), 2022
+    - <em>Wide Mean-Field Variational Bayesian Neural Networks Ignore the Data.</em> <b>Beau Coker</b>*, David Burt*, Wessel Bruinsma*, Weiwei Pan, Finale Doshi-Velez. In Proceedings of The 25th International Conference on Artificial Intelligence and Statistics (AISTATS), 2022.
+    - <em>Wide Mean-Field Variational Bayesian Neural Networks Ignore the Data.</em> <b>Beau Coker</b>, Weiwei Pan, Finale Doshi-Velez. In ICML Workshop on Uncertainty & Robustness in Deep Learning (UDL), 2021.
+    - <em>PoRB-Nets Poisson Process Radial Basis Function Networks.</em> <b>Beau Coker</b>, Melanie F. Pradier, Finale Doshi-Velez. In Proceedings of the 36th Conference on Uncertainty in Artificial Intelligence (UAI), 2020
+    - <em>The Age of Secrecy and Unfairness in Recidivism Prediction.</em> Cynthia Rudin, Caroline Wang, <b>Beau Coker</b>. Harvard Data Science Review (HDSR), 2020
+    - <em>Learning a Latent Space of Highly Multidimensional Cancer Data.</em> Ben Kompa, <b>Beau Coker</b>. In Pacific Symposium on Biocomputing, 25, 2020.
+    - <em>A Theory of Statistical Inference for Ensuring the Robustness of Scientific Results.</em> <b>Beau Coker</b>, Cynthia Rudin, Gary King. Management Science, 67, 2021.
+
+- title: Teaching Experience
+  type: time_table
+  contents:
+    - title: Teaching Fellow
+      institution: Harvard University, Cambridge, MA
+      year: 2019 - 2022
+      description:
+        - Reproducible Data Science | Biostatistics 270 (Winter 2022)
+        - Data Science II | Biostatistics 261 (Spring 2021, 2022)
+        - Applied Bayesian Analysis | Biostatistics 270 (Fall 2020, 2021)
+        - Applied Regression Analysis | Biostatistics 210 (Fall 2019, Spring 2020)
+
+    - title: Teaching Assistant
+      institution: Duke University, Durham, MA
+      year: 2017 - 2018
+      description:
+        - Probabilistic Machine Learning | Statistical Science 561 (Spring 2018)
+        - Data Analysis and Statistical Inference | Statistical Science 101 (Spring 2017)
+
+- title: Presentations
+  type: time_table
+  contents:
+    - year: 2022
+      items:
+        - Center for Basic Machine Learning Research in Life Science (MLLS) in Copenhagen | Virtual
+        - <a href="https://virtual.aistats.org/virtual/2022/poster/3368">AISTATS 2022 | Virtual (poster)</a>
+    - year: 2021
+      items: 
+        - Yingzhen Li's group meeting | Virtual (Imperial College London) 
+        - <a href="https://slideslive.com/38962854/wide-meanfield-variational-bnns-ignore-the-data">ICML Workshop on Uncertainty & Robustness in Deep Learning | Virtual (contributed talk)</a> 
+    - year: 2020
+      items: 
+        - HughesLab group meeting | Virtual (PI Mike Hughes, Tufts University) 
+    - year: 2019
+      items: 
+        - 12th International Conference on Bayesian Nonparametrics | Oxford, UK (poster)
+    - year: 2018
+      items:
+        - Triangle Machine Learning Day | Durham, NC (poster)
+
+- title: Industry Experience
+  type: time_table
+  contents:
+    - title: 'State Street Associates'
+      institution: 'Senior Vice President | Cambridge, MA'
+      item: 'hey'
+      year: 2014 - 2016
+      items: 
+        - Researched how market turbulence, systemic risk, illiquidity, and currency movements impact portfolio management
+    - title: 'State Street Global Markets'
+      institution: 'Senior Associate | Boston, MA'
+      item: 'hey'
+      year: 2013 - 2014
+      items: 
+        - Completed three 4-month rotations through onboarding processes flows, currency hedging, and macro strategy (currency trading)
+    - title: 'State Street Associates'
+      institution: 'Intern | Cambridge, MA'
+      item: 'hey'
+      year: 2012
+      items: 
+        - Worked on portfolio optimization by minimizing transaction costs

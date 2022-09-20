@@ -9,9 +9,10 @@ nav: true
 
 One day I hope I can describe my publications like [Morbo describes his children](https://youtu.be/c2MEZg1Qol4){:target="\_blank"}. Until then, this is what I have. 
 
+<!-- _pages/publications.md -->
 <div class="publications">
 
-{% for y in page.years %}
+{%- for y in page.years %}
   <h2 class="year">{{y}}</h2>
   {% bibliography -f papers -q @*[year={{y}}]* %}
 {% endfor %}
