@@ -2,27 +2,26 @@
   type: time_table
   contents:
     - title: PhD in Biostatistics (expected)
-      institution: Harvard University, Cambridge, MA
+      institution: Harvard University | Cambridge, MA
       year: 2018 - 2023
       description:
         - "Advisors: Finale Doshi-Velez, Brent Coull"
     - title: MS in Statistical Science
-      institution: Duke University, Durham, NC
+      institution: Duke University | Durham, NC
       year: 2016 - 2018
       description:
-        - "Thesis: A Theory of Statistical Inference for Ensuring the Robustness of Scientific Results (Advised by Cynthia
-Rudin)"
+        - Thesis&#58; <em><a href="https://dukespace.lib.duke.edu/dspace/handle/10161/17039">A Theory of Statistical Inference for Ensuring the Robustness of Scientific Results</a></em> (Advised by Cynthia Rudin)
     - title: BS in Engineering Science
-      institution: Tufts University, Medford, MA
+      institution: Tufts University | Medford, MA
       year: 2009 - 2013
       description:
-        - "Thesis: Do Physical Analogs of Stock Market Crashes Make Sense? (Advised by Tim Atherton)"
+        - Thesis&#58; <em><a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj24JilrbX6AhUXkokEHYQ-BN4QFnoECAgQAQ&url=https%3A%2F%2Fdl.tufts.edu%2Fdownloads%2F794088123%3Ffilename%3D3197xx94k.pdf&usg=AOvVaw2q58opySZ3UNh5karF-Jdb">Do Physical Analogs of Stock Market Crashes Make Sense?</a></em> (Advised by Tim Atherton)
         - Completed second major in Mathematics and minor in Economics
 
 - title: Research Experience
   type: time_table
   contents:
-    - title: <a href="https://dtak.github.io">Data to Actionable Knowledge (DTAK)</a>
+    - title: <a href="https://dtak.github.io">Data to Actionable Knowledge (DtAK)</a>
       institution: Graduate Research Assistant | Harvard School of Engineering and Applied Sciences
       year: 2019 - 
       description:
@@ -50,23 +49,24 @@ Rudin)"
         - "Advisor: Tim Atherton"
         - "Topics: Ising systems, critical phenomena in financial markets"
 
-
 - title: Publications
-  type: list
+  type: nested_list
   contents:
-    - <em>Towards a Unified Framework for Uncertainty-aware Nonlinear Variable Importance Estimation with Theoretical Guarantees.</em> Wenying Deng, <b>Beau Coker</b>, Rajarshi Mukherjee, Jeremiah Zhe Liu, and Brent A. Coull. In Advances in Neural Information Processing Systems (NeurIPS), 2022
-    - <em>Wide Mean-Field Variational Bayesian Neural Networks Ignore the Data.</em> <b>Beau Coker</b>*, David Burt*, Wessel Bruinsma*, Weiwei Pan, Finale Doshi-Velez. In Proceedings of The 25th International Conference on Artificial Intelligence and Statistics (AISTATS), 2022.
-    - <em>Wide Mean-Field Variational Bayesian Neural Networks Ignore the Data.</em> <b>Beau Coker</b>, Weiwei Pan, Finale Doshi-Velez. In ICML Workshop on Uncertainty & Robustness in Deep Learning (UDL), 2021.
-    - <em>PoRB-Nets Poisson Process Radial Basis Function Networks.</em> <b>Beau Coker</b>, Melanie F. Pradier, Finale Doshi-Velez. In Proceedings of the 36th Conference on Uncertainty in Artificial Intelligence (UAI), 2020
-    - <em>The Age of Secrecy and Unfairness in Recidivism Prediction.</em> Cynthia Rudin, Caroline Wang, <b>Beau Coker</b>. Harvard Data Science Review (HDSR), 2020
-    - <em>Learning a Latent Space of Highly Multidimensional Cancer Data.</em> Ben Kompa, <b>Beau Coker</b>. In Pacific Symposium on Biocomputing, 25, 2020.
-    - <em>A Theory of Statistical Inference for Ensuring the Robustness of Scientific Results.</em> <b>Beau Coker</b>, Cynthia Rudin, Gary King. Management Science, 67, 2021.
+    - title: <em><a href="https://arxiv.org/pdf/2204.07293.pdf">Towards a Unified Framework for Uncertainty-aware Nonlinear Variable Importance Estimation with Theoretical Guarantees.</a></a></em> Wenying Deng, <b>Beau Coker</b>, Rajarshi Mukherjee, Jeremiah Zhe Liu, and Brent A. Coull. In Advances in Neural Information Processing Systems (NeurIPS), 2022.
+    - title: <em><a href="https://arxiv.org/pdf/2202.11670.pdf">Wide Mean-Field Variational Bayesian Neural Networks Ignore the Data.</a></em> <b>Beau Coker</b>*, David Burt*, Wessel Bruinsma*, Weiwei Pan, Finale Doshi-Velez. In Proceedings of The 25th International Conference on Artificial Intelligence and Statistics (AISTATS), 2022.
+    - title: <em><a href="https://arxiv.org/pdf/2106.07052.pdf">Wide Mean-Field Variational Bayesian Neural Networks Ignore the Data.</a></em> <b>Beau Coker</b>, Weiwei Pan, Finale Doshi-Velez. In ICML Workshop on Uncertainty & Robustness in Deep Learning (UDL), 2021.
+    - title: <em><a href="https://pubsonline.informs.org/doi/10.1287/mnsc.2020.3818">A Theory of Statistical Inference for Ensuring the Robustness of Scientific Results.</a></em> <b>Beau Coker</b>, Cynthia Rudin, Gary King. Management Science, 67, 2021.
+    - title: <em><a href="http://proceedings.mlr.press/v124/coker20a/coker20a.pdf">PoRB-Nets Poisson Process Radial Basis Function Networks.</a></em> <b>Beau Coker</b>, Melanie F. Pradier, Finale Doshi-Velez. In Proceedings of the 36th Conference on Uncertainty in Artificial Intelligence (UAI), 2020.
+    - title: <em><a href="https://hdsr.mitpress.mit.edu/pub/7z10o269">The Age of Secrecy and Unfairness in Recidivism Prediction.</a></em> Cynthia Rudin, Caroline Wang, <b>Beau Coker</b>. Harvard Data Science Review (HDSR), 2020.
+      items:
+        - A rejoinder titled <em><a href="https://hdsr.mitpress.mit.edu/pub/8jy98s9q/release/3">Broader Issues Surrounding Model Transparency in Criminal Justice Risk Scoring</a></em> by the same authors was also published in HDSR in response to invited commentaries.
+    - title: <em><a href="https://www.worldscientific.com/doi/abs/10.1142/9789811215636_0034">Learning a Latent Space of Highly Multidimensional Cancer Data.</em> Ben Kompa, <b>Beau Coker</b>. In Pacific Symposium on Biocomputing, 25, 2020.
 
 - title: Teaching Experience
   type: time_table
   contents:
     - title: Teaching Fellow
-      institution: Harvard University, Cambridge, MA
+      institution: Harvard University | Cambridge, MA
       year: 2019 - 2022
       description:
         - Reproducible Data Science | Biostatistics 270 (Winter 2022)
@@ -75,7 +75,7 @@ Rudin)"
         - Applied Regression Analysis | Biostatistics 210 (Fall 2019, Spring 2020)
 
     - title: Teaching Assistant
-      institution: Duke University, Durham, MA
+      institution: Duke University | Durham, NC
       year: 2017 - 2018
       description:
         - Probabilistic Machine Learning | Statistical Science 561 (Spring 2018)
