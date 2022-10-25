@@ -8,14 +8,14 @@ middle_name:
 last_name: Coker
 email: beaucoker@g.harvard.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  About Beau
 footer_text: >
   Help! I'm trapped in a footnote!
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🥔 # the emoji used as the favicon
 url: https://beauCoker.github.io # the base hostname & protocol for your site
-baseurl: # the subpath of your site, e.g. /blog/ <-- change to /al-folio to run locally using "bundle exec jekyll serve"
+baseurl: /al-folio # the subpath of your site, e.g. /blog/ <-- change to /al-folio to run locally using "bundle exec jekyll serve"
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
