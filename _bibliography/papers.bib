@@ -1,12 +1,37 @@
 ---
 ---
 
+@inproceedings{ibvi_2025,
+  abbr={Pending},
+  author = {Jonathan Wenger and Beau Coker and Juraj Marusic and John P. Cunningham },
+  title = {Variational Deep Learning via Implicit Regularization},
+  booktitle = {Pending review},
+  year = {2025},
+  abstract = {Modern deep learning models generalize remarkably well in-distribution, despite being overparametrized and trained with little to no \emph{explicit} regularization. Instead, current theory credits \emph{implicit} regularization imposed by the choice of architecture, hyperparameters and optimization procedure. However, deploying deep learning models out-of-distribution, in sequential decision-making tasks, or in safety-critical domains, necessitates reliable uncertainty quantification, not just a point estimate. The machinery of modern approximate inference --- Bayesian deep learning --- should answer the need for uncertainty quantification, but its effectiveness has been challenged by our inability to define useful \emph{explicit} inductive biases through priors, as well as the associated computational burden. Instead, in this work we demonstrate, both theoretically and empirically, how to regularize a variational deep network \emph{implicitly via the optimization procedure}, just as for standard deep learning. We fully characterize the inductive bias of (stochastic) gradient descent in the case of an overparametrized linear model as generalized variational inference and demonstrate the importance of the choice of parametrization. Finally, we show empirically that our approach achieves strong in- and out-of-distribution performance without tuning of additional hyperparameters and with minimal time and memory overhead over standard deep learning.},
+  pdf = {https://arxiv.org/pdf/2505.20235},
+  preview={ibvi.png}
+}
+
+@inproceedings{coker_icml2023,
+  abbr={NeurIPS},
+  author = {Beau Coker and Finale Doshi-Velez},
+  title = {Implications of Gaussian process kernel mismatch for out-of-distribution data},
+  booktitle = {ICML workshops Spurious correlations, Invariance, and Stability (SCIS) and Structured Probabilistic Inference and Generative Modeling (SPIGM)},
+  year = {2023},
+  abstract = {Gaussian processes provide reliable uncertainty estimates in nonlinear modeling, but a poor choice of the kernel can lead to poor generalization. Although learning the hyperparameters of the kernel typically leads to optimal generalization on in-distribution test data, we demonstrate issues with out-of-distribution test data. We then investigate three potential solutions– (1) learning the smoothness using a discrete cosine transform, (2) assuming fatter tails in function-space using a Student-t process, and (3) learning a more flexible kernel using deep kernel learning–and find some evidence in favor of the first two.},
+  pdf={https://openreview.net/pdf?id=AoJUCbkLWP},
+  preview={gp_mismatch.png}
+}
+
+
 @inproceedings{yao_gps2022,
   abbr={NeurIPS},
   author = {Jiayu Yao and Yaniv Yacoby and Beau Coker and Weiwei Pan and Finale Doshi-Velez },
   title = {An Empirical Analysis of the Advantages of Finite v.s.~Infinite Width Bayesian Neural Networks},
   booktitle = {NeurIPS Workshop on Gaussian Processes, Spatiotemporal Modeling, and Decision-making Systems},
   year = {2022},
+  abstract = {Comparing Bayesian neural networks (BNNs) with different widths is challenging because, as the width increases, multiple model properties change simultaneously, and, inference in the finite-width case is intractable. In this work, we empirically compare finite- and infinite-width BNNs, and provide quantitative and qualitative explanations for their performance difference. We find that when the model is mis-specified, increasing width can hurt BNN performance. In these cases, we provide evidence that finite-width BNNs generalize better partially due to the properties of their frequency spectrum that allows them to adapt under model mismatch.},
+  pdf = {https://arxiv.org/pdf/2211.09184},
   preview={finite_bnns.png}
 }
 
