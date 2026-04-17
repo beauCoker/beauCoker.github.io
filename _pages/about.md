@@ -6,7 +6,7 @@ description:
 
 profile:
   align: right
-  image: IMG_7565.jpg
+  image: IMG_7565.jpeg
   address: >
     <p>this is me</p>
 
@@ -21,4 +21,4 @@ Previously I was a postdoc at the [Center for Theoretical Neuroscience](https://
 
 Here's an old <a href="https://virtual.aistats.org/virtual/2022/poster/3368">talk</a> I gave at AISTATS about mean-field variational BNNs.
 
-**Contact:** bc3107 [AT] columbia [DOT] edu
+**Contact:** beau [DOT] coker [AT] gmail [DOT] com
